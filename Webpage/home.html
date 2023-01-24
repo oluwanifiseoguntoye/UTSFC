@@ -1,18 +1,19 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Livvic&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@900&display=swap" rel="stylesheet">
-    <title>University of Toronto Student's For Choice</title>
-  </head>
-  <body>
+
     <!--- The navigation bar/top header -->
-    
+
     <nav class="navbar navbar-expand-lg ">
         <div class="container"> 
             <a class="navbar-title" href="home.html">UofT Students for Choice</span>
@@ -44,25 +45,25 @@
         </div>
     </nav>
 
-     <!--- Home First Showcase -->
+    <!--- Showcase -->
 
     <section class="showcase p-5 text-center text-sm-start">
         <div class="container">
-            <div class="d-sm-flex align-items-center justify-content-between">
-                <div>
-                    <span class="showcase-header">UNIVERSITY OF TORONTO<h1 class="showcase-header-2"> STUDENTS <br> FOR CHOICE</h1></span>
-                </div>
-                <img class="showcase-picture ms-auto img-fluid d-none d-sm-block w-50" src="https://cvws.icloud-content.com/B/AftArsaUsv1L-rV5-PpshoLLQUEWAWHoIR80VoUACtB11xKFFh5D20Pm/showcase.jpg?o=AjwJ2rSSyl2zue-9TjBz86mvPPdD-vcBbjc5n0L7JG6x&v=1&x=3&a=CAogQxYwcnNY0geW5jmYRl45fgiYHR1TY1T7b3VGtYgB8MgSbxDgqfGG3jAY4IbNiN4wIgEAUgTLQUEWWgRD20PmaieTxrVab_IZY_Myc4OdCZ_wckoSZnqpsk6wvk3fLxY3B3SByBt24BtyJ52CnRXpLOYhSfn_A-qCecPqGQjDtNElJE7DqYBVmet-dr_blypADQ&e=1674518414&fl=&r=321eeda1-cae8-4dd3-92f5-7d45141b6220-1&k=DBNJQG7NNe2HKho2N6eyYw&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=137&s=_sN9i54L5Lgqrl2eZMEq110fuSo&cd=i">
+            <div class="d-md-flex align-items-center justify-content-between">
+                <span class="showcase-header">UNIVERSITY OF TORONTO<h1 class="showcase-header-2"> STUDENTS <br> FOR CHOICE</h1> 
+                    <a href="about.html"> 
+                        <button class="showcase-button">MORE ABOUT US</button>
+                    </a>
+                </span>
+                <img class="showcase-picture img-fluid d-none d-md-block w-50" src="https://cvws.icloud-content.com/B/AftArsaUsv1L-rV5-PpshoLLQUEWAWHoIR80VoUACtB11xKFFh5D20Pm/showcase.jpg?o=AjwJ2rSSyl2zue-9TjBz86mvPPdD-vcBbjc5n0L7JG6x&v=1&x=3&a=CAogQxYwcnNY0geW5jmYRl45fgiYHR1TY1T7b3VGtYgB8MgSbxDgqfGG3jAY4IbNiN4wIgEAUgTLQUEWWgRD20PmaieTxrVab_IZY_Myc4OdCZ_wckoSZnqpsk6wvk3fLxY3B3SByBt24BtyJ52CnRXpLOYhSfn_A-qCecPqGQjDtNElJE7DqYBVmet-dr_blypADQ&e=1674518414&fl=&r=321eeda1-cae8-4dd3-92f5-7d45141b6220-1&k=DBNJQG7NNe2HKho2N6eyYw&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=137&s=_sN9i54L5Lgqrl2eZMEq110fuSo&cd=i">
             </div>
-            <a href="#about"> 
-            <button class="showcase-button">MORE ABOUT US</button>
-            </a>
+
         </div>
     </section>
 
      <!--- Carousel Header -->
 
-     <section class="gallery p-5 text-sm-start">
+     <section class="gallery p-5 text-md-start">
         <div class="container text-center">
             <span class="gallery-header">OUR PROUDEST MOMENTS</span>
         </div>
@@ -71,7 +72,7 @@
     <!--- Carousel -->
 
     <section class="carousel p-5">
-        <div class="container-lg my-3">
+        <div class="container-md">
             <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
                 <!-- Carousel indicators -->
                 <ol class="carousel-indicators">

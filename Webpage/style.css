@@ -70,7 +70,7 @@ First Home Screen Section CSS Elements
 .showcase-header {
     font-family: 'Livvic', sans-serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 15px;
     text-shadow: 3px 3px 3px white;
     color: #2F1821;
 }
@@ -146,7 +146,7 @@ Photo Gallery Screen Section CSS Elements
 About US
 */
 
-.gallery-showcase-header {
+.about-showcase-header {
     font-family: 'Livvic', sans-serif;
     font-weight: 900;
     font-size: 40px;
@@ -154,9 +154,112 @@ About US
     color: #2F1821;
 }
 
-.gallery-showcase-text {
+.about-showcase-text {
     font-family: 'Livvic', sans-serif;
     font-weight: 60;
     font-size: 20px;
     color: #2F1821;
+}
+
+.executive {
+    background-color: #2F1821;
+}
+
+.about-exec-header {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #f8f8ee;
+    text-shadow: 2px 2px 2px #FACEE1;
+}
+
+.exec-brand {
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+
+.exec-title {
+    color: #f8f8ee;
+    font-weight: 900;
+    font-family: 'Livvic', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.wrapper{
+    position: absolute;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper .box .front,
+.wrapper .box .bock {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+
+}
+
+.wrapper .box .front{
+    background-color: #f8f8ee;
+}
+
+.front h2{
+    font-size: 27px;
+    font-family: 'Livvic', sans-serif;
+    text-align: center;
+    margin-top: 10%;
+    color: #2F1821;
+    text-transform: uppercase;
+
+}
+
+.front h5{
+    font-size: 15px;
+    font-family: 'Livvic', sans-serif;
+    text-align: center;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    color: #2F1821;
+}
+
+.wrapper .box .back{
+    transform: rotateY('180deg');
+}
+
+.wrapper .exec-btn{
+    margin-top: 25px;
+}
+
+.wrapper .box.animated{
+    transform: rotateY('-180deg');
+}
+
+.wrapper .close{
+    display: block;
+    font-size: 40px;
+    position: absolute;
+    top: 15px;
+    right: 3%;
+    text-decoration: none;
+    color: #2F1821;
+}
+
+.exec-btn {
+    color: #2F1821;
+    display: block;
+    font-size: 15px;
+    margin: 0 auto;
+    max-width: 250px;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 50px;
 }
