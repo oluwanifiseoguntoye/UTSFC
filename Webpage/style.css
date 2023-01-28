@@ -157,7 +157,7 @@ About US
 .about-showcase-text {
     font-family: 'Livvic', sans-serif;
     font-weight: 60;
-    font-size: 20px;
+    font-size: 16px;
     color: #2F1821;
 }
 
@@ -279,10 +279,10 @@ From references
 .card{
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 15px ;
     background-color: #f8f8ee;
     width: 300px;
-    height: 400px;
+    height: 450px;
     text-align: center;
     padding-bottom: 20px;
     
@@ -304,7 +304,7 @@ From references
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 7px solid #fff;
+    border: 7px solid #f8f8ee;
     margin-top: -60px;
 }
 
@@ -329,9 +329,18 @@ From references
 
 .main-text p{
     font-family: 'Livvic', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     padding: 0 35px;
     color: #2F1821;
+}
+
+.main-text h3{
+    font-family: 'Livvic', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 0 35px;
+    color: #DE4D86;
+    font-weight: 400;
 }
 
 .socials{
