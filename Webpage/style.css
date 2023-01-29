@@ -11,17 +11,17 @@ Nav Bar CSS Elements
     padding: 0 15px;
 }
 
-.ms-auto {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .my-nav-link {
     color: #f8f8ee;
     font-weight: 900;
     font-family: 'Livvic', sans-serif;
     font-size: 15px;
     
+}
+
+.ms-auto {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .my-nav-link:hover{
@@ -156,9 +156,10 @@ About US
 
 .about-showcase-text {
     font-family: 'Livvic', sans-serif;
-    font-weight: 60;
     font-size: 16px;
     color: #2F1821;
+    font-weight: 500;
+    margin-left: 30px;
 }
 
 .executive {
@@ -187,89 +188,9 @@ About US
     font-size: 15px;
 }
 
-/*
-.wrapper{
-    position: absolute;
-    transition: transform 0.5s;
-    transform-style: preserve-3d;
-    height: 100%;
-    width: 100%;
-}
-
-.wrapper .box .front,
-.wrapper .box .bock {
-    display: block;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    backface-visibility: hidden;
-
-}
-
-.wrapper .box .front{
-    background-color: #f8f8ee;
-}
-
-.front h2{
-    font-size: 27px;
-    font-family: 'Livvic', sans-serif;
-    text-align: center;
-    margin-top: 10%;
-    color: #2F1821;
-    text-transform: uppercase;
-
-}
-
-.front h5{
-    font-size: 15px;
-    font-family: 'Livvic', sans-serif;
-    text-align: center;
-    margin: 0 0 30px 0;
-    text-transform: uppercase;
-    color: #2F1821;
-}
-
-.wrapper .box .back{
-    transform: rotateY('180deg');
-}
-
-.wrapper .exec-btn{
-    margin-top: 25px;
-}
-
-.wrapper .box.animated{
-    transform: rotateY('-180deg');
-}
-
-.wrapper .close{
-    display: block;
-    font-size: 40px;
-    position: absolute;
-    top: 15px;
-    right: 3%;
-    text-decoration: none;
-    color: #2F1821;
-}
-
-.exec-btn {
-    color: #2F1821;
-    display: block;
-    font-size: 15px;
-    margin: 0 auto;
-    max-width: 250px;
-    padding: 15px 0;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-radius: 50px;
-}
-
-*/
-
 
 /*
-From references
+Profile Cards
 */
 
 .profile-area{
@@ -281,10 +202,11 @@ From references
     overflow: hidden;
     border-radius: 15px ;
     background-color: #f8f8ee;
-    width: 300px;
-    height: 450px;
+    width: 325px;
+    height: 500px;
     text-align: center;
-    padding-bottom: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
     
 }
 
@@ -301,8 +223,8 @@ From references
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 7px solid #f8f8ee;
     margin-top: -60px;
@@ -356,4 +278,28 @@ From references
 
 .executive-cards {
     background-color: #2F1821;
+}
+
+/*
+Join
+*/
+.join-header {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px white;
+    color: #DE4D86;
+}
+
+.join-header-2 {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px white;
+    color: #DE4D86;
+}
+
+.join-text {
+    font-family: 'Livvic', sans-serif;
+    color: #2F1821;
 }
