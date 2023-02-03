@@ -1,72 +1,60 @@
-.profile-area{
-    padding: 80px 0;
+.navbar {
+    background-color: #FACEE1;
 }
 
-.card{
-    box-shadow: 0 0 30px rgba(0,0,0,0.5);
-    overflow: hidden;
-    border-radius: 15px;
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #f8f8ee;
+    font-weight: 900;
+    font-family: 'Livvic', sans-serif;
+    font-size: 15px;
+    
+}
+
+
+.nav-link:hover{
+    color: #2F1821;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px; 
+}
+
+.navbar-brand {
+    height: 100px;
+    width: 100px;
+    border: none;
+}
+
+.navbar-title {
+    color: #f8f8ee;
+    font-weight: 900;
+    font-family: 'Livvic', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar-title:hover {
+    text-decoration: none;
+    color: #f8f8ee;
+
+}
+
+.navbar-toggler {
     background-color: #f8f8ee;
 }
 
-.background img{
-    height: 150px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    width: 100%;
+.navbar-toggler:hover{
+    background-color: #DE4D86;
+    transition: all 0.3s ease-in-out;
 }
 
-.profile1 img{
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 1;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 7px solid #fff;
-    margin-top: -60px;
-}
-
-.card:hover .profile1 img{
-    border-color: #DE4D86;
-    transition: .7s;
-}
-
-.main-text{
-    padding: 30px 0;
-    text-align: center;
-}
-
-.main-text h2{
-    font-family: 'Livvic', sans-serif;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 20px;
-    margin: 0 0 20px;
-    color: #2F1821;
-}
-
-.main-text p{
-    font-family: 'Livvic', sans-serif;
-    font-size: 16px;
-    padding: 0 35px;
-    color: #2F1821;
-}
-
-.socials{
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.socials i{
-    font-size: 20px;
-    color: #DE4D86;
-    padding: 0 10px;
-}
-
-.card-grid {
-    display: flex;
-    flex-wrap: wrap;
+.margin-center{
+    padding-left: 200px;
+    padding-right: 200px;
 }

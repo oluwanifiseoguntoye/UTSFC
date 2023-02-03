@@ -4,27 +4,23 @@ Nav Bar CSS Elements
 
 .navbar {
     background-color: #FACEE1;
-
 }
+
 
 .nav-item {
-    padding: 0 15px;
+    margin: 0 10px;
 }
 
-.my-nav-link {
+.nav-link {
     color: #f8f8ee;
     font-weight: 900;
     font-family: 'Livvic', sans-serif;
     font-size: 15px;
-    
+    text-decoration: none;
 }
 
-.ms-auto {
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.my-nav-link:hover{
+.nav-link:hover{
     color: #2F1821;
     padding: 10px 20px;
     width: 100%;
@@ -37,6 +33,7 @@ Nav Bar CSS Elements
     height: 100px;
     width: 100px;
     border: none;
+    margin-left: 20;
 }
 
 .navbar-title {
@@ -62,6 +59,11 @@ Nav Bar CSS Elements
     transition: all 0.3s ease-in-out;
 }
 
+.nav-link:active, .nav-link:focus {
+    color: #f8f8ee;
+    text-decoration: none;
+    background-color: transparent;
+}
 
 /*
 First Home Screen Section CSS Elements
@@ -73,6 +75,7 @@ First Home Screen Section CSS Elements
     font-size: 15px;
     text-shadow: 3px 3px 3px white;
     color: #2F1821;
+    text-transform: uppercase;
 }
 
 .showcase-header-2 {
@@ -81,6 +84,8 @@ First Home Screen Section CSS Elements
     font-size: 40px;
     text-shadow: 3px 3px 3px white;
     color: #2F1821;
+    text-transform: uppercase;
+    
 }
 
 .showcase {
@@ -100,7 +105,15 @@ First Home Screen Section CSS Elements
     border: none;
     border-radius: 10px;
     color: #2F1821;
+    text-transform: uppercase;
+
 }
+
+button.showcase-button {
+    width: 350px;
+    white-space: nowrap;
+  }
+  
 
 .showcase-button:hover {
     color: #DE4D86;
@@ -122,6 +135,7 @@ Photo Gallery Screen Section CSS Elements
     font-size: 40px;
     color: #f8f8ee;
     text-shadow: 2px 2px 2px #FACEE1;
+    text-transform: uppercase;
 }
 
 .carousel-item img {
@@ -188,6 +202,14 @@ About US
     font-size: 15px;
 }
 
+.executive-title  {
+    color: #f8f8ee;
+    font-weight: 900;
+    font-family: 'Livvic', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
 
 /*
 Profile Cards
@@ -223,8 +245,8 @@ Profile Cards
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
     border: 7px solid #f8f8ee;
     margin-top: -60px;
@@ -283,23 +305,44 @@ Profile Cards
 /*
 Join
 */
+
+.join {
+    background-image: url(https://i.imgur.com/HpZxgNe.png);
+    width: 100%;
+    height: 90%;
+    background-position: center;
+    background-size: cover;
+}
 .join-header {
     font-family: 'Livvic', sans-serif;
     font-weight: 900;
     font-size: 20px;
-    text-shadow: 3px 3px 3px white;
-    color: #DE4D86;
+    text-shadow: 3px 3px 3px black;
+    color: #f8f8ee;
+}
+
+.join-navbar {
+    background-color: #2F1821;
+    height: auto;
+    display: flex;
+    align-items: center;
 }
 
 .join-header-2 {
     font-family: 'Livvic', sans-serif;
     font-weight: 900;
     font-size: 50px;
-    text-shadow: 3px 3px 3px white;
-    color: #DE4D86;
+    text-shadow: 3px 3px 3px black;
+    color: #f8f8ee;
 }
 
 .join-text {
     font-family: 'Livvic', sans-serif;
-    color: #2F1821;
+    color: #f8f8ee;
+    font-size: 15px;
+}
+
+.join-form {
+    height: 600px;
+    width: 600px;
 }
