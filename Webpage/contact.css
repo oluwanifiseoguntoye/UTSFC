@@ -1,0 +1,110 @@
+.navbar {
+    background-color: #FACEE1;
+}
+
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #f8f8ee;
+    font-weight: 900;
+    font-family: 'Livvic', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.nav-link:hover{
+    color: #2F1821;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px; 
+}
+
+.navbar-brand {
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin-left: 20;
+}
+
+.navbar-title {
+    color: #f8f8ee;
+    font-weight: 900;
+    font-family: 'Livvic', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar-title:hover {
+    text-decoration: none;
+    color: #f8f8ee;
+
+}
+
+.navbar-toggler {
+    background-color: #f8f8ee;
+}
+
+.navbar-toggler:hover{
+    background-color: #DE4D86;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:active, .nav-link:focus {
+    color: #f8f8ee;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.contact-title {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px white;
+    color: #2F1821;
+    text-transform: uppercase;
+}
+
+.contact-header {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    text-shadow: 3px 3px 3px white;
+    color: #2F1821;
+}
+
+.contact-page {
+    background-color: #FACEE1;
+}
+
+.icons {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px 20px;
+    color: #2F1821;
+    transition: 0.5s;
+}
+
+.instagram-showcase {
+    background-color: #2F1821
+}
+
+.ig-header {
+    font-family: 'Livvic', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px black;
+    color: #FACEE1;
+    text-transform: uppercase;
+}
+
+
+
+
