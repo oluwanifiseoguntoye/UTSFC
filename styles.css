@@ -111,9 +111,10 @@ First Home Screen Section CSS Elements
 
 .fixed-size-img {
     width: 600px; /* Set your desired width */
-    height: 600px; /* Set your desired height */
-    object-fit: cover; /* Ensures the image covers the fixed size without distortion */
-    margin-bottom: 50px
+    height: 400px; /* Set your desired height */
+    object-fit: contain; /* Ensures the image fits within the fixed size without cropping */
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: auto; /* Centers the image within the container */
 }
 
 
