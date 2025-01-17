@@ -162,7 +162,8 @@ Photo Gallery Screen Section CSS Elements
 }
 
 .carousel {
-    background-color: #2F1821
+    background-color: #2F1821;
+    margin-bottom: 50px
 }
 
 /* 
