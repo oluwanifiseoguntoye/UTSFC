@@ -109,6 +109,13 @@ First Home Screen Section CSS Elements
 
 }
 
+.fixed-size-img {
+    width: 600px; /* Set your desired width */
+    height: 400px; /* Set your desired height */
+    object-fit: cover; /* Ensures the image covers the fixed size without distortion */
+}
+
+
 button.showcase-button {
     width: 350px;
     white-space: nowrap;
